@@ -1,8 +1,13 @@
 <?php
 
-    require 'app/Models/Job.php';
-    require 'app/Models/Project.php';
-    require_once 'app/Models/Printable.php';
+use App\Models\{job,Project,Printable};
+// use App\Models\Project;
+// use App\Models\Printable;
+
+require 'app/Models/Job.php';
+require 'app/Models/Project.php';
+require_once 'app/Models/Printable.php';
+require 'lib1/project.php';
 
 $jobs1 = new Job('PHP Developer','This is an awesome job!!!');
 $jobs1 -> months = 16;
