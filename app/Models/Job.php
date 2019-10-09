@@ -2,7 +2,7 @@
 
 require_once 'BaseElement.php';
 
-class Job extends BaseElement{
+class Job extends BaseElement {
     public function __contruct($title,$description){
         parent::__construct($title,$description);
     }
@@ -18,5 +18,7 @@ class Job extends BaseElement{
             }
         return "job $years years";		  
         }
-    }        
+    }
+    
+
 }
